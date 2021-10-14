@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.topo{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    align-items: center;
+    width: 1024px;
+    margin: 0px auto;    
+}
+
+.inicial li{
+    width: 700px;
+    font-size: 22px
+}
+
+.inicial span{
+    color: rgb(79, 132, 211);
+}
+
+.menu li{
+    font-size: 16px;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    padding-left: 20px;
+    list-style: none;
+    color: rgb(83, 81, 81);
+} /* AQUI ACABA A ESTILIZAÇÃO DO TOPO*/
+
+.principal{
+    height: 500px;
+    width: 100vw;
+    background-image: url(images/img-fundo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    padding:30px;
+    border-color: white;
+    border-style: solid;
+    font-size: 20px;
+    color: white;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(48, 102, 26, 0.5);
+}
+
+.conteudo p{
+    padding-top: 40px;
+}
+
+
+.inf_quartos{
+    height: 450px;
+    margin-top: 100px;
+}
+
+.des_quartos{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: rgb(83, 81, 81);
+}
+
+.quartos{
+    justify-content: space-around;
+    display: flex;
+    margin: 0px 120px;
+}
+
+.quartos img{
+    width: 300px;
+    height: 200px
+}
+
+.quartos a {
+    text-decoration: none;
+    color: black;
+}
+
+.edit_quartos{
+    display:flex;
+    flex-direction: column;
+    border-bottom: solid rgb(17, 68, 17);
+    align-items: center;
+}
+
+.edit_quartos h3{
+    padding-top: 15px;    
+}
+
+.rota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(83, 81, 81);
+}
+
+.rota h2{
+    margin-bottom: 30px;
+}
+
+.rota p{
+    margin-bottom: 30px;
+}
+
+.sobre{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(83, 81, 81);
+}
+
+.inf_sobre{
+    display: flex;
+    margin: 0px 150px;
+}
+.inf_sobre img{
+    width: 100px;
+    height: 110px;
+    position: absolute;
+    right: 0px;
+}
+
+.bloco{
+    position: relative;
+    height: 300px;
+    width: 480px;
+}
+.card{
+    height: 150px;
+    width: 30vw;
+    text-align: left;
+    display: flex;
+    margin-top: 30px;
+    align-content: space-around;
+}
+
+.card h3{
+    color: rgb(59, 59, 59);
+}
+.sobre h2{
+    margin:60px 0px
+}
+
+.sobre p{
+    margin-bottom:60px;
+}
+
+#recepcao{
+    margin-left: 30px;
+}
+
+#quartos{
+    margin-left: 30px;
+}
+
+.card h3{
+    padding-bottom: 10px;
+}
+
+#recepcao p{
+    padding-top:10px;
+}
+
+.rodape{
+    height: 150px;
+    display: flex;
+    width: auto;
+    padding:0px 150px;
+    background-color: rgb(90, 143, 38);
+    margin-top: 50px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card_rodape{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.card_rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.card_rodape img{
+    height: 40px;
+    width: 45px;
+    padding-right: 15px;
+}

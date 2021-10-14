@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topo{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    align-items: center;
+    width: 1024px;
+    margin: 0px auto;    
+}
+
+.inicial li{
+    width: 700px;
+    font-size: 22px
+}
+
+.inicial span{
+    color: rgb(79, 132, 211);
+}
+
+.menu li{
+    font-size: 16px;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topo li{
+    padding-left: 20px;
+    list-style: none;
+    color: rgb(83, 81, 81);
+} /* AQUI ACABA A ESTILIZAÇÃO DO TOPO*/
+
+#img_topo img{
+    height: 120px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.conteudo_card{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    color: rgb(83, 81, 81);
+}
+
+.card_img{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+}
+
+.card_img img{
+    width: 300px;
+    height: 200px;
+}
+
+.cardti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.card_des{
+    margin: 0px 200px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.card_des li{
+    margin-left: 10px;
+}
+
+.rodape{
+    height: 150px;
+    display: flex;
+    width: auto;
+    padding:0px 150px;
+    background-color: rgb(90, 143, 38);
+    margin-top: 50px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card_rodape{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.card_rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.card_rodape img{
+    height: 40px;
+    width: 45px;
+    padding-right: 15px;
+}
