@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    margin: auto;
+}
+
+#topo{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(99, 216, 216);
+    text-align: center;
+    align-items: center;
+}  
+
+#topo img{
+    width: 150px;
+    padding-right: 900px;
+}
+
+#topo a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+#topo a:hover{
+    color:  rgb(58, 105, 130);
+}
+
+#img_intro{
+    align-items: center;
+    display: flex;
+    color: white;
+    margin: auto;
+    width: 100%;
+    height: 450px;
+    background-image: url(imagens/recepcao.png);
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+}
+
+
+
+/*Aqui começa a estilização da parte sobre*/
+#sobre_desc{
+    text-align: center;
+    margin: 50px auto;
+    width: 1024px;
+}
+
+#sobre_desc p{
+    padding-top: 20px;
+}
+
+#sobre {
+    margin: 0px auto;
+    width: 1024px;
+}
+
+#sobre img{
+    padding-left: 200px;
+    float: left;
+    padding-right: 30px;
+}
+
+#sobre ul{
+    padding-top: 20px;
+}
+
+
+
+/*Aqui começa a estilização das especialidades*/
+
+#especialidades{
+    text-align: center;
+    margin: 0 auto;
+    width: 1024px;
+    margin-top: 150px;
+}
+
+#especialidades p{
+    margin-top: 20px;
+}
+
+#card_especialidades{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card img{
+    width: 100%;
+    height: 80%;
+    
+}
+
+.card{
+    box-shadow: 0 0 1em rgb(97, 97, 97);
+    width: 250px;
+    height: 250px;
+}
+
+.card p {
+    height: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#bt_hr{
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+#bt_hr button{
+   height: 50px;
+   width: 150px;
+   text-decoration: none;
+   background-color:rgb(99, 216, 216) ;
+   color:white;
+   border-style: none;
+}
+
+
+
+
+/*Aqui começa a estilização da parte contatos*/
+
+#contato{
+    text-align: center;
+    margin: 0 auto;
+    width: 1024px;
+    margin-top: 50px;
+}
+
+#contato p {
+    margin-top: 20px;
+}
+
+#contato iframe{
+    padding-top: 20px;
+}
+
+
+
+
+/*Aqui começa a estilização do rodapé*/
+
+#rodape{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(77, 181, 204);
+}
+
+#rodape img{
+    padding: 10px 0px;
+    width: 180px;
+    width: 180px;
+}
+
+#rodape p {
+    padding-bottom: 20px;
+}
+
+/*Aqui começa a estilização da parte responsiva*/
